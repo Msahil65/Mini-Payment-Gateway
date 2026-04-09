@@ -15,6 +15,7 @@ export default defineConfig({
     react(),
      tailwindcss(),
   ],
+  base: '/Mini-Payment-Gateway/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
